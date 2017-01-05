@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vTU-JQ-CIj">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -56,8 +56,22 @@
         <!--Contact View Controller-->
         <scene sceneID="Ge4-wC-PEA">
             <objects>
+                <viewController id="vTU-JQ-CIj" customClass="ContactViewController" customModule="GetOnBoardSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KcF-gQ-LSd"/>
+                        <viewControllerLayoutGuide type="bottom" id="YsS-pN-lfA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UF3-Mu-9UX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="u25-Pl-ul2" id="mkT-z8-RQQ"/>
+                    </connections>
+                </viewController>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="u25-Pl-ul2">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="header-contact" translatesAutoresizingMaskIntoConstraints="NO" id="U0g-su-Kn2">
@@ -137,17 +151,6 @@
                     </subviews>
                 </scrollView>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1yM-I2-049" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="vTU-JQ-CIj" customClass="ContactViewController" customModule="GetOnBoardSwift" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="KcF-gQ-LSd"/>
-                        <viewControllerLayoutGuide type="bottom" id="YsS-pN-lfA"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="UF3-Mu-9UX">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
             </objects>
             <point key="canvasLocation" x="916" y="38"/>
         </scene>
