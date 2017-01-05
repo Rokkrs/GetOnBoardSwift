@@ -12,6 +12,8 @@
 		C8EC43D51E1EC2C800CA8E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EC43D31E1EC2C800CA8E14 /* Main.storyboard */; };
 		C8EC43D71E1EC2C800CA8E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8EC43D61E1EC2C800CA8E14 /* Assets.xcassets */; };
 		C8EC43DA1E1EC2C800CA8E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EC43D81E1EC2C800CA8E14 /* LaunchScreen.storyboard */; };
+		C8EC43E31E1EC50D00CA8E14 /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC43E21E1EC50D00CA8E14 /* InitViewController.swift */; };
+		C8EC43E51E1ED33500CA8E14 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC43E41E1ED33500CA8E14 /* ContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C8EC43D61E1EC2C800CA8E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8EC43D91E1EC2C800CA8E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8EC43DB1E1EC2C800CA8E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8EC43E21E1EC50D00CA8E14 /* InitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InitViewController.swift; path = GetOnBoardSwift/Controllers/InitViewController.swift; sourceTree = "<group>"; };
+		C8EC43E41E1ED33500CA8E14 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactViewController.swift; path = GetOnBoardSwift/Controllers/ContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		C8EC43CE1E1EC2C800CA8E14 /* GetOnBoardSwift */ = {
 			isa = PBXGroup;
 			children = (
+				C8EC43E11E1EC4B200CA8E14 /* Controllers */,
 				C8EC43CF1E1EC2C800CA8E14 /* AppDelegate.swift */,
 				C8EC43D11E1EC2C800CA8E14 /* ViewController.swift */,
 				C8EC43D31E1EC2C800CA8E14 /* Main.storyboard */,
@@ -62,6 +67,16 @@
 				C8EC43DB1E1EC2C800CA8E14 /* Info.plist */,
 			);
 			path = GetOnBoardSwift;
+			sourceTree = "<group>";
+		};
+		C8EC43E11E1EC4B200CA8E14 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C8EC43E21E1EC50D00CA8E14 /* InitViewController.swift */,
+				C8EC43E41E1ED33500CA8E14 /* ContactViewController.swift */,
+			);
+			name = Controllers;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8EC43D21E1EC2C800CA8E14 /* ViewController.swift in Sources */,
+				C8EC43E51E1ED33500CA8E14 /* ContactViewController.swift in Sources */,
 				C8EC43D01E1EC2C800CA8E14 /* AppDelegate.swift in Sources */,
+				C8EC43E31E1EC50D00CA8E14 /* InitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
