@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8C17D5B1E1EDA2E00BDD880 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C17D5A1E1EDA2E00BDD880 /* ProductsTableViewController.swift */; };
 		C8EC43D01E1EC2C800CA8E14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC43CF1E1EC2C800CA8E14 /* AppDelegate.swift */; };
 		C8EC43D21E1EC2C800CA8E14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC43D11E1EC2C800CA8E14 /* ViewController.swift */; };
 		C8EC43D51E1EC2C800CA8E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EC43D31E1EC2C800CA8E14 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C8C17D5A1E1EDA2E00BDD880 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductsTableViewController.swift; path = GetOnBoardSwift/Controllers/ProductsTableViewController.swift; sourceTree = "<group>"; };
 		C8EC43CC1E1EC2C800CA8E14 /* GetOnBoardSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetOnBoardSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8EC43CF1E1EC2C800CA8E14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8EC43D11E1EC2C800CA8E14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			children = (
 				C8EC43E21E1EC50D00CA8E14 /* InitViewController.swift */,
 				C8EC43E41E1ED33500CA8E14 /* ContactViewController.swift */,
+				C8C17D5A1E1EDA2E00BDD880 /* ProductsTableViewController.swift */,
 			);
 			name = Controllers;
 			path = ..;
@@ -156,6 +159,7 @@
 				C8EC43E51E1ED33500CA8E14 /* ContactViewController.swift in Sources */,
 				C8EC43D01E1EC2C800CA8E14 /* AppDelegate.swift in Sources */,
 				C8EC43E31E1EC50D00CA8E14 /* InitViewController.swift in Sources */,
+				C8C17D5B1E1EDA2E00BDD880 /* ProductsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +321,7 @@
 				C8EC43E01E1EC2C800CA8E14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

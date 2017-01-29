@@ -16,15 +16,21 @@ class InitViewController: UIViewController {
     
     @IBOutlet weak var nextBtn: UIButton!
     
+    var productName : String?
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        titleStr.text = "Hi Friends!"
+        titleStr.text = productName
         //backgroundIMG.image = UIImage(named: "phone-fullscreen3")
         backgroundImg.image = #imageLiteral(resourceName: "phone-fullscreen3") // new function swift 3 ImageLiteral
         //button.setTitle("my text here", forState: UIControlState.Normal)
         nextBtn.setTitle("Press Continue...", for: .normal)
+        
+        
         
     }
 
